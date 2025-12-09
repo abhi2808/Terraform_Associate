@@ -1,3 +1,5 @@
+# terraform blocks
+
 block-type block-label block-labe{  #block
     identifire = expression  #argument
 }
@@ -55,3 +57,15 @@ combine different resources to make them reusable(use variables), called by root
 
 output->
 export structred data using terraform, op can be input for another workspace
+
+
+once init with providers-> creates a dependency lock(terraform.lock.hcl)-> stores where the provider was installed fromvv
+
+
+**provisioners**
+
+model actions on local/remote machines
+- local exec
+- remote exec: communicates with remote machine using ssh
+
+demo: using this we can directly deployed a website on an was instance

@@ -15,3 +15,5 @@ apply previously saved plan: terraform apply myplan
 
 
 if require multiple of same setup in diff server, use diff directories with same code or workkspaces.
+
+terraform providers: official, partner, community
