@@ -10,7 +10,7 @@ validate => only syntax only, wont check of references/paths are correct. Can do
 
 plan => gets you the changes taht would be made after applying
 
-- "+" : rceated
+- "+" : created
 - "-" : destroyed
 - "~" : updated in-place
 - "-/+" : destroyed and rectreated

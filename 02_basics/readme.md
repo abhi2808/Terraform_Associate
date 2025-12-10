@@ -59,7 +59,7 @@ output->
 export structred data using terraform, op can be input for another workspace
 
 
-once init with providers-> creates a dependency lock(terraform.lock.hcl)-> stores where the provider was installed fromvv
+once init with providers-> creates a dependency lock(terraform.lock.hcl)-> stores where the provider was installed from
 
 
 **provisioners**

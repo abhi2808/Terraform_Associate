@@ -16,7 +16,7 @@ can untaint too: terraform untaint aws_instance.web_server
 now we use, terraform apply -replace="aws_instance.web_server"
 
 
-what is you have pre existing resources?
+what if you have pre existing resources?
 create a resouce of that type and import it to it: terraform import aws_instance.my-imported-instance i-0c7255e7a9959fa54, terrafrom import (resource) (resource id-resource specific)
 
 ![alt text](image.png)
@@ -26,7 +26,7 @@ but planning would give error, would have missing attributes, whatever is missin
 
 # terrafrom workspaces(DRY programming)
 
-terraafrom state belongs to a workspace, infra created in 1 workspace doen't reflect as existing in another
+terrafrom state belongs to a workspace, infra created in 1 workspace doen't reflect as existing in another
 terrafrom workspace + show/list/delete/show/new/select
 terrafrom.workspace provides the curret workspace in code
 
